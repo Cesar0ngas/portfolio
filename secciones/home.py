@@ -43,7 +43,7 @@ def show():
             - Python
             - R
             - SQL
-            - Javascript
+            - Nest
             - CSS
             - React
             - Excel
