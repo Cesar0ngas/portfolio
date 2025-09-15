@@ -113,8 +113,8 @@ def show():
             "titulo": "FaceRecognition Attendance",
             "descripcion": "Sistema de control de asistencia basado en reconocimiento facial.",
             "estado": "Finalizado",
-            "repositorio": None,
-            "imagen": None,
+            "repositorio": "https://github.com/GabrielIslas/face-recognition?tab=readme-ov-file",
+            "imagen": "assets/img/face recog nonames.jpg",
             "detalle": """
 
             Proyecto de visión por computadora que utiliza reconocimiento facial para registrar asistencia.  
@@ -149,7 +149,7 @@ def show():
             "descripcion": "Sistema de análisis financiero que identifica momentos de entrada/salida usando EMA de 20 días, complementado con modelos de series temporales (ARIMA/SARIMA).",
             "estado": "En curso",
             "repositorio": None,
-            "imagen": None,
+            "imagen": "assets/img/walmex.jpg",
             "detalle": """
             ### Predicción de puntos de entrada y salida con EMA + ARIMA/SARIMA  
 
