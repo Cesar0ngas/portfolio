@@ -3,7 +3,7 @@ from pathlib import Path
 
 def show():
     st.title("Hola, soy Cesar Correa 👋🏽")
-    st.header("Ingeniero en Datos | ETL | SQL | ML | Data Visualization | Optimization & Automation")
+    st.header("Data Engineer | ETL | SQL | ML | Data Visualization | Optimization & Automation")
     st.write(
         """
         Bienvenido a mi museo de proyectos. \n
@@ -24,7 +24,7 @@ def show():
         """
         - Experiencia en construcción de pipelines de datos, optimización de consultas SQL y dashboards.
         - Manejo herramientas como **Python, SQL, Herramientas de Visualizacion**.
-        - Mi objetivo: crear soluciones que hagan los datos fáciles de entender y faciles de obtener manteniendo flujos de datos.
+        - Mi objetivo: crear soluciones que hagan los datos fáciles de entender y faciles de obtener manteniendo flujos de datos, ahorrando tiempo y mejorando la eficienia.
         """
     )
 
@@ -56,7 +56,7 @@ def show():
             - Postman
             - Kafka
             - Data Manipulation (Pandas, Polars)
-            - Data Visualization (PowerBI, Tableau, LookerStudio)
+            - Data Visualization (PowerBI, Tableau, LookerStudio, Matplotlib, Seaborn)
             """
         )
 
@@ -72,7 +72,7 @@ def show():
         )
 
     # Sección: Contacto
-    st.header("Contactame")
+    st.header("Contacto")
     st.write(
         """
         - **LinkedIn:** https://www.linkedin.com/in/cesar-correa-45074a294/
