@@ -119,14 +119,64 @@ def show():
             ### FaceRecognition Attendance
             Proyecto de visión por computadora que utiliza reconocimiento facial para registrar asistencia.  
 
+            **Fechas:**  
+            - Inicio: Noviembre 2024  
+            - Finalización estimada: Noviembre 2024 
+
+
+            **Qué se hizo:**  
+            - Se entrenó un modelo de reconocimiento facial usando **keras-facenet** para generar embeddings faciales de imágenes etiquetadas.  
+            - Se utilizó un **label encoder** para asignar identificadores (IDs) a los usuarios, y un clasificador SVM con **sklearn** para distinguir rostros basado en los embeddings.  
+            - Se desplegó el modelo como endpoint en **Azure ML** para que la parte de inferencia (reconocer rostros nuevos) fuera remota y escalable.  
+            - Se desarrolló la interfaz de usuario con **Streamlit**, permitiendo tomar fotos, identificar usuario, mostrar historial, etc.  
+            - Los datos (imágenes, información de los estudiantes) se almacenan en **MongoDB Atlas**.  
+
             **Tecnologías usadas:**  
-            - Python, OpenCV, TensorFlow  
+            - Python, keras-facenet, sklearn, joblib  
+            - Azure ML para endpoint de inferencia  
+            - Streamlit para interfaz web  
+            - MongoDB Atlas para base de datos de estudiantes  
 
-            **Objetivo:**  
-            Reemplazar el registro manual con un sistema automático basado en rostros.  
+            **Aprendizajes y resultados clave:**  
+            - Comprensión profunda de embeddings faciales y cómo manejar identificación de rostros en condiciones reales.  
+            - Manejo de bugs relacionados con compatibilidad de entorno en Azure (por ejemplo versión de Python).  
+            - Logística de almacenamiento de imágenes e información personal de forma segura.  
+            - Experiencia en despliegue de modelo a producción, integrando front-end y back-end.  
+            """
+        },
+        {
+            "titulo": "WALMEX Stock Analysis",
+            "descripcion": "Sistema de análisis financiero que identifica momentos de entrada/salida usando EMA de 20 días, complementado con modelos de series temporales (ARIMA/SARIMA).",
+            "estado": "En curso",
+            "repositorio": None,
+            "imagen": None,
+            "detalle": """
+            ### Predicción de puntos de entrada y salida con EMA + ARIMA/SARIMA  
 
-            **Aprendizaje clave:**  
-            Integración de modelos de visión en aplicaciones prácticas.
+            Este proyecto combina indicadores técnicos y modelos estadísticos para analizar series temporales financieras y **detectar puntos óptimos de entrada y salida**.  
+
+            **Fechas:**  
+            - Inicio: Octubre 2023  
+            - Finalización estimada: En curso
+
+            **Objetivos principales:**  
+            - Usar la **Media Móvil Exponencial (EMA 20 días)** para marcar señales de compra/venta.  
+            - Implementar modelos de series temporales (**ARIMA y SARIMA**) para predecir tendencias a corto y mediano plazo.  
+            - Añadir “escudos” o filtros que protejan frente a señales falsas (ej. volumen, volatilidad).  
+
+            **Resultados actuales:**  
+            - Identificación más precisa de ventanas de entrada y salida comparado con EMA pura.  
+            - Reducción de falsos positivos gracias al cruce entre predicciones estadísticas y técnicas.  
+            - Visualizaciones que muestran retrocesos históricos y puntos sugeridos de acción.  
+
+            **Tecnologías usadas:**  
+            - Python (Pandas, NumPy, Statsmodels, Scikit-learn)  
+            - Visualización: Matplotlib, Seaborn, Plotly  
+            - Modelos estadísticos: ARIMA y SARIMA para series temporales  
+
+            **Próximos pasos:**  
+            - Integrar **sentiment analysis** de redes sociales (ej. Twitter/X) para incorporar señales basadas en el sentimiento del mercado.  
+            - Explorar el uso de NLP y modelos preentrenados para capturar correlaciones entre noticias y movimientos de precio.  
             """
         }
     ]
