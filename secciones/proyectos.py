@@ -17,7 +17,7 @@ def show():
             "repositorio": None,
             "imagen": None,
             "detalle": """
-            ### SATisFACTURE
+
             Proyecto en desarrollo para la descarga masiva de CFDIs y Metadata desde el SAT, con autenticación mediante FIEL
             y almacenamiento seguro en la nube.  
 
@@ -48,7 +48,7 @@ def show():
             "repositorio": None,
             "imagen": None,
             "detalle": """
-            ### Cash Management App
+
             Aplicación desarrollada en **AppSheet** para gestionar el flujo de efectivo de manera controlada y organizada.  
 
             **Fechas:**  
@@ -83,7 +83,7 @@ def show():
             "repositorio": None,
             "imagen": None,
             "detalle": """
-            ### CFDI Automatization
+
             Proyecto relacionado con **SATisFACTURE**, enfocado en el **procesamiento eficiente de CFDIs** descargados desde el SAT.  
 
             **Fechas:**  
@@ -116,7 +116,7 @@ def show():
             "repositorio": None,
             "imagen": None,
             "detalle": """
-            ### FaceRecognition Attendance
+
             Proyecto de visión por computadora que utiliza reconocimiento facial para registrar asistencia.  
 
             **Fechas:**  
