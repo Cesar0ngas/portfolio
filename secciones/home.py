@@ -3,7 +3,7 @@ from pathlib import Path
 
 def show():
     st.title("Hola, soy Cesar Correa 👋🏽")
-    st.header("Data Engineer | ETL | SQL | ML | Data Visualization | Optimization & Automation")
+    st.header("Data Engineer")
     st.write(
         """
         Bienvenido a mi museo de proyectos. \n
